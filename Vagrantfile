@@ -1,6 +1,6 @@
 $script_mysql = <<-SCRIPT
   apt-get update && \
-  apt-get install -y mysql-server"
+  apt-get install -y mysql-server
 SCRIPT
 
 Vagrant.configure("2") do |config|
